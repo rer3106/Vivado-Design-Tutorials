@@ -38,7 +38,7 @@ Source the create_top_bd.tcl to create the flat BD. This BD contains static regi
   <img src="./images/flat_bd.png?raw=true" alt="flat bd"/>
 </p>
 
-## Create hierarchies for reconfigruable partition and static region
+## Create hierarchies for reconfigurable partition and static region
 In the DFX flow, a seperate hierarchy for reconfigurable partition is a must. It is recommended to keep a hierarchy for static region whenever possible for easier floorplanning down the flow if needed.
 
 <p align="center">
@@ -75,7 +75,7 @@ In the "Addressing" tab, the aperture will be automatically defined for each int
 
 `source create_rp1rm2.tcl`
 
-1. Create the second reconfigurable module rp1rm2.bd for the same reconfigurable partition rp1. You can right click the rp1 BDC and select "Create Reconfirurable Module"
+1. Create the second reconfigurable module rp1rm2.bd for the same reconfigurable partition rp1. You can right click the rp1 BDC and select "Create Reconfigurable Module"
 
 <p align="center">
   <img src="./images/create_rp1rm2.png?raw=true" alt="create_rp1rm2"/>
